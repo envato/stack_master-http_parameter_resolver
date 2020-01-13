@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/envato/stack_master-http_parameter_resolver.svg?branch=master)](https://travis-ci.org/envato/stack_master-http_parameter_resolver)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/stack_master/http_parameter_resolver`. To experiment with that code, run `script/console` for an interactive prompt.
+A [StackMaster] parameter resolver that obtains values via HTTP calls.
 
-TODO: Delete this and the text above, and describe your gem
+[StackMaster]: https://github.com/envato/stack_master
 
 ## Installation
 
@@ -24,7 +24,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+For example, to resolve the Cloudflare IPv4 ranges:
+
+```yaml
+cloudflare_ips:
+  http: https://www.cloudflare.com/ips-v4
+```
+
+To obtain both the Cloudlare IPv4 and IPv6 ranges:
+
+```yaml
+cloudflare_ips:
+  - http: https://www.cloudflare.com/ips-v4
+  - http: https://www.cloudflare.com/ips-v6
+```
 
 ## Development
 
