@@ -1,0 +1,2 @@
+--require stack_master/http_parameter_resolver
+--require spec_helper
