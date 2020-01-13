@@ -1,4 +1,4 @@
-# StackMaster::GpgParameterResolver
+# StackMaster::HttpParameterResolver
 
 [![Build Status](https://travis-ci.org/envato/stack_master-http_parameter_resolver.svg?branch=master)](https://travis-ci.org/envato/stack_master-http_parameter_resolver)
 
