@@ -16,4 +16,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Initial functionality: Obtaining parameters from HTTP calls returning plain
   text.
 
-[v0.1.0]: https://github.com/envato/stack_master-http_parameter_resolver/tree/v0.1.0
+[0.1.0]: https://github.com/envato/stack_master-http_parameter_resolver/tree/v0.1.0
