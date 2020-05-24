@@ -34,15 +34,21 @@ For example, to resolve the Cloudflare IPv4 ranges:
 
 ```yaml
 cloudflare_ips:
-  http: https://www.cloudflare.com/ips-v4
+  http:
+    url: https://www.cloudflare.com/ips-v4
+    strategy: one_per_line
 ```
 
 To obtain both the Cloudlare IPv4 and IPv6 ranges:
 
 ```yaml
 cloudflare_ips:
-  - http: https://www.cloudflare.com/ips-v4
-  - http: https://www.cloudflare.com/ips-v6
+  - http:
+      url: https://www.cloudflare.com/ips-v4
+      strategy: one_per_line
+  - http:
+      url: https://www.cloudflare.com/ips-v6
+      strategy: one_per_line
 ```
 
 ## Development

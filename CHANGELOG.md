@@ -7,7 +7,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- Introduce strategies for parsing the HTTP response ([#2]). This changes how
+  to configure the parameter resolver. eg.
+
+  ```diff
+   cloudflare_cidr_ips:
+  -  http: https://www.cloudflare.com/ips-v4
+  +  http:
+  +    url: https://www.cloudflare.com/ips-v4
+  +    strategy: one_per_line
+  ```
+
 [Unreleased]: https://github.com/envato/stack_master-http_parameter_resolver/compare/v0.1.0...HEAD
+[#2]: https://github.com/envato/stack_master-http_parameter_resolver/pull/2
 
 ## [0.1.0] - 2020-01-14
 
