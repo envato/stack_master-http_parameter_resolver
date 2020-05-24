@@ -18,11 +18,15 @@ gem 'stack_master-http_parameter_resolver'
 
 And then execute:
 
-    $ bundle
+```sh
+bundle install
+```
 
 Or install it yourself as:
 
-    $ gem install stack_master-http_parameter_resolver
+```sh
+gem install stack_master-http_parameter_resolver
+```
 
 ## Usage
 
