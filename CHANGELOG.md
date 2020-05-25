@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+[Unreleased]: https://github.com/envato/stack_master-http_parameter_resolver/compare/v0.2.0...HEAD
+
+## [0.2.0] - 2020-05-25
+
 ### Changed
 
 - Introduce strategies for parsing the HTTP response ([#2]). This changes how
@@ -20,7 +24,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   +    strategy: one_per_line
   ```
 
-[Unreleased]: https://github.com/envato/stack_master-http_parameter_resolver/compare/v0.1.0...HEAD
+[0.2.0]: https://github.com/envato/stack_master-http_parameter_resolver/compare/v0.1.0...v0.2.0
 [#2]: https://github.com/envato/stack_master-http_parameter_resolver/pull/2
 
 ## [0.1.0] - 2020-01-14
