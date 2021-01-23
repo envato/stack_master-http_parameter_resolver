@@ -1,8 +1,8 @@
 # StackMaster::HttpParameterResolver
 
-[![License MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/envato/stack_master-http_parameter_resolver/blob/master/LICENSE.txt)
+[![License MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/envato/stack_master-http_parameter_resolver/blob/main/LICENSE.txt)
 [![Gem Version](https://badge.fury.io/rb/stack_master-http_parameter_resolver.svg)](https://rubygems.org/gems/stack_master-http_parameter_resolver)
-[![Build Status](https://travis-ci.org/envato/stack_master-http_parameter_resolver.svg?branch=master)](https://travis-ci.org/envato/stack_master-http_parameter_resolver)
+[![Build Status](https://travis-ci.org/envato/stack_master-http_parameter_resolver.svg?branch=main)](https://travis-ci.org/envato/stack_master-http_parameter_resolver)
 
 A [StackMaster] parameter resolver that obtains values via HTTP calls.
 
