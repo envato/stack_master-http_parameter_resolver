@@ -12,10 +12,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Default git branch renamed to `main`.
 - CI build runs on GitHub Actions ([#3]).
 - CI runs test suite on Ruby 3.0 and 3.1 ([#4]).
+- Loosen faraday dependency constraint: allow version 1 and 2 ([#5]).
 
 [Unreleased]: https://github.com/envato/stack_master-http_parameter_resolver/compare/v0.2.0...HEAD
 [#3]: https://github.com/envato/stack_master-http_parameter_resolver/pull/3
 [#4]: https://github.com/envato/stack_master-http_parameter_resolver/pull/4
+[#5]: https://github.com/envato/stack_master-http_parameter_resolver/pull/5
 
 ## [0.2.0] - 2020-05-25
 
